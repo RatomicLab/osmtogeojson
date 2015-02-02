@@ -1,3 +1,12 @@
+2.2.4
+-----
+fixed a bug where full geometry information caused additional Point features in the output
+
+2.2.3
+-----
+* updates to polygon detection: natural=cliff is not automatically an area, golf=* is rendered as polygons
+* speed optimizations for xml input in CLI mode #34
+
 2.2.1
 -----
 * fix bug with ref-less, clipped full geometry ways in JSON mode
